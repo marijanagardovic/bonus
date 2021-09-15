@@ -16,6 +16,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: var(--lightgrayishblue);
+    font-family: var(--fontfamily);
 }
 
 .main{
@@ -32,9 +33,10 @@ body{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: var(--violet-clr);
     color: var(--white);
     border-radius: 0.8em;
+    background: url(images/bg-pattern-quotation.svg) no-repeat, var(--violet-clr);
+        background-position: top 15% right 20%;
 }
 
 .card-2{
@@ -78,12 +80,6 @@ body{
 .profile-photo{
     border-radius: 50%;
     padding: 2rem;
-}
-
-.quotation{
-  position: fixed;
-  top: 4.8rem;
-  right: 70rem;
 }
 
 .name{
