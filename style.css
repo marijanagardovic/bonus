@@ -21,7 +21,7 @@ body{
 
 .main{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(autofit, minmax(4, 1fr));
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 2rem;
     grid-column-gap: 2rem;
@@ -112,4 +112,11 @@ h2{
     margin: 0;
     opacity: 70%;
 }
+
+@media (max-width: 1600px){
+    .main{
+        padding: 6rem 2rem;
+    }
+}
+
 
