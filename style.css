@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root{
+    --fontfamily: 'Barlow Semi Condensed', sans-serif;
+    --violet-clr: hsl(263, 55%, 52%);
+    --darkgrayishblue: hsl(217, 19%, 35%);
+    --darkblackishblue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(0, 0%, 81%);
+    --lightgrayishblue: hsl(210, 46%, 95%);
+    --lightviolet: rgb(231, 190, 255);;
+    --fontsize: 13px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--lightgrayishblue);
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    padding: 2rem 17rem;
+}
+
+.card-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: var(--violet-clr);
+    color: var(--white);
+    border-radius: 0.8em;
+}
+
+.card-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: var(--darkgrayishblue);
+    color: var(--white);
+    border-radius: 0.8em;
+}
+
+.card-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: var(--white);
+    color: var(--darkblackishblue);
+    border-radius: 0.8em;
+}
+
+.card-4{
+    grid-column: 2/4;
+    grid-row: 2;
+    background-color: var(--darkblackishblue);
+    color: var(--white);
+    border-radius: 0.8em;
+}
+
+.card-5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: var(--white);
+    color: var(--darkblackishblue);
+    border-radius: 0.8em;
+}
+
+.profile-photo{
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+.quotation{
+    float: right;
+    padding-right: 7rem;
+    display: block;
+}
+
+.name{
+    position: absolute;
+    padding: 1rem;
+}
+
+
