@@ -17,6 +17,7 @@ body{
     padding: 0;
     background-color: var(--lightgrayishblue);
     font-family: var(--fontfamily);
+    height: 100vh;
 }
 
 .main{
