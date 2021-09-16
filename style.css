@@ -120,6 +120,13 @@ h2{
     }
 }
 
+@media (min-width: 1225px){
+    .main{
+        padding: 2rem;
+        max-width: 100rem;
+    }
+}
+
 @media (max-width: 1130px){
     .main{
         padding: 6rem 1.9rem;
