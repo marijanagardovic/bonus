@@ -86,19 +86,19 @@ body{
 
 .name{
     position: relative;
-    top: -103px;
+    top: -95px;
     left: 110px;
 }
 
 .verified{
     position: relative;
-    top: -112px;
+    top: -104px;
     left: 110px;
     opacity: 50%;
 }
 
 h2{
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 1rem;
