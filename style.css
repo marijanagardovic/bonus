@@ -27,7 +27,7 @@ body{
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 2rem;
     grid-column-gap: 2rem;
-    padding: 6rem 18rem;
+    /* padding: 6rem 18rem; */
 }
 
 .card-1{
@@ -39,6 +39,7 @@ body{
     border-radius: 0.8em;
     background: url(images/bg-pattern-quotation.svg) no-repeat, var(--violet-clr);
         background-position: top 15% right 20%;
+    padding: 1rem 2rem;
 }
 
 .card-2{
@@ -49,6 +50,7 @@ body{
     background-color: var(--darkgrayishblue);
     color: var(--white);
     border-radius: 0.8em;
+    padding: 1rem 2rem;
 }
 
 .card-3{
@@ -59,6 +61,7 @@ body{
     background-color: var(--white);
     color: var(--darkblackishblue);
     border-radius: 0.8em;
+    padding: 1rem 2rem;
 }
 
 .card-4{
@@ -67,6 +70,7 @@ body{
     background-color: var(--darkblackishblue);
     color: var(--white);
     border-radius: 0.8em;
+    padding: 1rem 2rem;
 }
 
 .card-5{
@@ -77,42 +81,23 @@ body{
     background-color: var(--white);
     color: var(--darkblackishblue);
     border-radius: 0.8em;
+    padding: 1rem 2rem;
 }
 
 .profile-photo{
     border-radius: 50%;
-    padding: 2rem;
+    padding: 1rem;
 }
 
-.name{
-    position: relative;
-    top: -95px;
-    left: 110px;
+.profile-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.verified{
-    position: relative;
-    top: -104px;
-    left: 110px;
-    opacity: 50%;
-}
-
-h2{
-    padding-top: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    margin: 0;
-    position: relative;
-    margin-top: -120px;
-}
-
-.about{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2.5rem;
-    margin: 0;
-    opacity: 70%;
+.profile-name{
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1600px){
